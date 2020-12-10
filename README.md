@@ -3,4 +3,4 @@ AutoDream is a Minecraft Forge mod developed by [BubbaJuice](https://bubbajuice.
 ## Downloads 
 See [releases](https://github.com/BubbaJuice/AutoDream/releases) for downloads 
 ## License 
-AutoDream is licensed under **GNU GPLv3**, see: [LICENSE](LICENSE).
+AutoDream is licensed under **GNU General Public License v3.0**, see: [LICENSE](LICENSE).
