@@ -1,6 +1,7 @@
 package io.github.bubbajuice.autodream.listener;
 
 import net.minecraft.client.Minecraft;
+import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraftforge.client.event.ClientChatReceivedEvent;
 import net.minecraftforge.event.world.WorldEvent;
@@ -13,18 +14,20 @@ import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
 public class AutoDreamListener {
+    @Mod.EventHandler
+    public void init(FMLInitializationEvent event) {
+        MinecraftForge.EVENT_BUS.register(this);
+}
 
     @SubscribeEvent
     public void onChat(ClientChatReceivedEvent event) {
-        public ClientChatReceivedEvent.Result getMessage[]; {
-            if (getMessage.startsWith("The game starts in 10 seconds!")) {
-                try {
-                    Minecraft.getMinecraft().thePlayer.sendChatMessage(
+        String msg = event.message.getUnformattedText();
+            if (msg.contains("The game starts in 10 seconds!")) {
+                Minecraft.getMinecraft().thePlayer.sendChatMessage(
                         "/ac Hi."
-                    );
-                    end();
-                }
+                );
+                
             }
-        }
+        
     }
 }
