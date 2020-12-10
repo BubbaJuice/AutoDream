@@ -2,7 +2,7 @@
   {
     "modid": "autodream",
     "name": "AutoDream",
-    "description": "AutoDream automatically says a selectable phrase after a game has ended on supported servers.",
+    "description": "AutoDream automatically says "Dream is overrated." before a game has ended on mc.hypixel.net.",
     "version": "${version}",
     "mcversion": "${mcversion}",
     "url": "https://github.com/BubbaJuice/AutoDream",
