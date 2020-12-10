@@ -5,8 +5,8 @@
     "description": "AutoDream automatically says a selectable phrase after a game has ended on supported servers.",
     "version": "${version}",
     "mcversion": "${mcversion}",
-    "url": "https://sk1er.club/",
-    "updateUrl": "",
+    "url": "https://github.com/BubbaJuice/AutoDream",
+    "updateUrl": "https://github.com/BubbaJuice/AutoDream/releases",
     "authorList": [
       "BubbaJuice"
     ],
