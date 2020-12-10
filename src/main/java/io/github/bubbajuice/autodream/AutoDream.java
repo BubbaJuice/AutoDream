@@ -38,7 +38,7 @@ public void init(FMLInitializationEvent event) {
         String msg = event.message.getUnformattedText();
             if (msg.contains("The game starts in 10 seconds!")) {
                 Minecraft.getMinecraft().thePlayer.sendChatMessage(
-                    "/ac Hi."
+                    "/ac Dream is overrated."
                 );
                 
             }
