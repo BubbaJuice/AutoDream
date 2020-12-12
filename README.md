@@ -36,6 +36,9 @@ $ gradle build
 ``` 
 ## Downloads 
 See [releases](https://github.com/BubbaJuice/AutoDream/releases) for downloads 
+## WIP
+- [ ] Toggle Command
+- [ ] Choose What Is Overrated
 ## Open Source Credits
 Repository | License
 ------------ | -------------
