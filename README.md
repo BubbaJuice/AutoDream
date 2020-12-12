@@ -1,5 +1,5 @@
 # AutoDream 
-AutoDream is a [1.8.9 Minecraft Forge](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.8.9.html) mod developed by [BubbaJuice](https://bubbajuice.github.io) and influenced by [Sk1er's](https://sk1er.club) [AutoGG Mod](https://sk1er.club/mods/autogg) that allows you to automatically say "Dream is overrated." before a game is about to start on [mc.hypixel.net](https://hypixel.net). 
+AutoDream is a [1.8.9 Minecraft Forge](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.8.9.html) mod developed by [BubbaJuice](https://bubbajuice.github.io) and influenced by [Sk1er's](https://github.com/Sk1erLLC) [AutoGG Mod](https://github.com/Sk1erLLC/AutoGG) that allows you to automatically say "Dream is overrated." before a game is about to start on [mc.hypixel.net](https://hypixel.net). 
 ## Requirements 
 - [**Minecraft Forge 1.8.9 - 11.15.1.2318**](http://files.minecraftforge.net/maven/net/minecraftforge/forge/index_1.8.9.html) (For Mod Use)
 - [**JDK 8**](https://adoptopenjdk.net) (For Mod Use and Building)
@@ -36,5 +36,9 @@ $ gradle build
 ``` 
 ## Downloads 
 See [releases](https://github.com/BubbaJuice/AutoDream/releases) for downloads 
+## Open Source Credits
+Repository | License
+------------ | -------------
+[AutoGG](https://github.com/Sk1erLLC/AutoGG) | [GPL-3.0 License](https://github.com/Sk1erLLC/AutoGG/blob/master/LICENSE)
 ## License 
 AutoDream is licensed under **GNU General Public License v3.0**, see: [LICENSE](LICENSE).
