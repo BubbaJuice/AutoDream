@@ -40,5 +40,6 @@ See [releases](https://github.com/BubbaJuice/AutoDream/releases) for downloads
 Repository | License
 ------------ | -------------
 [AutoGG](https://github.com/Sk1erLLC/AutoGG) | [GPL-3.0 License](https://github.com/Sk1erLLC/AutoGG/blob/master/LICENSE)
+[Danker's Skyblock Mod](https://github.com/bowser0000/SkyblockMod) | [GPL-3.0 License](https://github.com/bowser0000/SkyblockMod/blob/master/LICENSE)
 ## License 
 AutoDream is licensed under **GNU General Public License v3.0**, see: [LICENSE](LICENSE).
