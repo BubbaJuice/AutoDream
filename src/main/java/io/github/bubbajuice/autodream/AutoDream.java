@@ -1,5 +1,4 @@
 package io.github.bubbajuice.autodream;
-package io.github.bubbajuice.autodream.simplecommands;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.ChatComponentText;
@@ -32,7 +31,6 @@ public class AutoDream {
 @Mod.EventHandler
 public void init(FMLInitializationEvent event) {
     MinecraftForge.EVENT_BUS.register(this);
-    ClientCommandHandler.instance.registerCommand(new SimpleCommands());
 }
 
 @SubscribeEvent
